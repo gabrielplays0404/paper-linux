@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="https://github.com/SEU_USUARIO/SEU_REPO/raw/main/logo.png" width="200" alt="Paper Linux Logo">
+</p>
 # 📄 Paper Linux v1.0
 
 A **Paper Linux** é uma distribuição robusta baseada em **Debian**, construída e refinada sob o ecossistema **Zorin OS**. Ela une a estabilidade lendária do Debian com a interface moderna e amigável do Zorin.
