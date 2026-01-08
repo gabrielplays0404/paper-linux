@@ -37,7 +37,7 @@ A imagem foi sanitizada e otimizada para ocupar o menor espaço possível, garan
 - **Componente,Especificação**
 - **Base** Debian (Build no Zorin OS)
 - **Interface** (WM),IceWM (Ultra-leve)
-- **Gerenciador** de Janelas,IceWM Window Manager
+- **Gerenciador de Janelas** IceWM Window Manager
 - **Consumo de RAM** ~250MB - 400MB (Em repouso)
 - **Navegador Padrão** Firefox-ESR
 - **Foco** Performance Extrema e Estabilidade
