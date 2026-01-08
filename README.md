@@ -28,7 +28,7 @@ A imagem foi sanitizada e otimizada para ocupar o menor espaço possível, garan
 3. Selecione o arquivo `.vbox` dentro da pasta extraída.
 4. Ajuste a memória RAM (mínimo 4GB recomendado) e inicie o sistema.
 
-## 🚀 Diferenciais
+## 🚀 Diferenciais da VM
 - **Privacidade:** Navegador Brave pré-instalado com limpeza automática.
 - **Eficiência:** Disco "zero-filled" para melhor compressão e performance.
 - **Base Sólida:** Compatibilidade total com pacotes `.deb` do Debian.
