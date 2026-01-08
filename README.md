@@ -17,7 +17,7 @@ A imagem foi sanitizada e otimizada para ocupar o menor espaço possível, garan
 * **Formato:** OVF/VDI (Compatível com VirtualBox)
 
 ### 👤 Credenciais de Acesso
-* **Usuário:** `Minhha-Máquina-Virtual`
+* **Usuário:** `Minha-Máquina-Virtual`
 * **Senha:** `231645`
 
 ---
