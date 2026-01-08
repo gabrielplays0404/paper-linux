@@ -32,3 +32,12 @@ A imagem foi sanitizada e otimizada para ocupar o menor espaço possível, garan
 - **Privacidade:** Navegador Brave pré-instalado com limpeza automática.
 - **Eficiência:** Disco "zero-filled" para melhor compressão e performance.
 - **Base Sólida:** Compatibilidade total com pacotes `.deb` do Debian.
+
+## 🚀 Diferenciais do Paper Linux
+- **Componente,Especificação**
+- **Base** Debian (Build no Zorin OS)
+- **Interface** (WM),IceWM (Ultra-leve)
+- **Gerenciador** de Janelas,IceWM Window Manager
+- **Consumo de RAM** ~250MB - 400MB (Em repouso)
+- **Navegador Padrão** Firefox-ESR
+- **Foco** Performance Extrema e Estabilidade
