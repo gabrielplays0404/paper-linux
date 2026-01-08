@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/SEU_USUARIO/SEU_REPO/raw/main/logo.png" width="200" alt="Paper Linux Logo">
+  <img src="https://github.com/gabrielplays0404/paper-linux/raw/main/logo.png" width="200" alt="Paper Linux Logo">
 </p>
 # 📄 Paper Linux v1.0
 
