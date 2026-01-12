@@ -87,3 +87,30 @@ A imagem foi sanitizada e otimizada para ocupar o menor espaço possível, garan
 - **Consumo de RAM:** ~250MB - 400MB (Em repouso)
 - **Navegador Padrão:** Firefox-ESR
 - **Foco:** Performance Extrema e Estabilidade
+
+## 🔨 Build System
+- **amd64 & i386:** Geradas via ./paper-build.sh.
+- **ARM64:** Imagem GPT gerada via debootstrap e distribuída como Bundle (IMG + Kernel).
+
+## 🔨 Script Construção ARM64
+faça o script build-paper-arm.sh e siga as instruções embutidas no arquivo
+``` Bash
+#!/bin/bash
+# Paper Linux ARM64 Image Builder
+
+IMAGE_NAME="paper_linux_arm64.img"
+IMAGE_SIZE="4G"
+
+echo "[1] Criando arquivo de imagem vazio..."
+qemu-img create -f raw $IMAGE_NAME $IMAGE_SIZE
+
+echo "[2] Criando tabela de partição GPT..."
+parted $IMAGE_NAME mklabel gpt
+parted $IMAGE_NAME mkpart primary fat32 1MiB 512MiB  # Partição EFI
+parted $IMAGE_NAME set 1 esp on
+parted $IMAGE_NAME mkpart primary ext4 512MiB 100%   # Partição Root
+
+echo "[3] Formatando e Montando (Requer Sudo)..."
+# Aqui você usaria o 'losetup' para montar a imagem como um disco real
+# e instalaria o sistema base via debootstrap para ARM64.
+```
