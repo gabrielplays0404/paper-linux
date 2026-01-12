@@ -58,7 +58,7 @@ chmod +x testar_paper.sh
 
 A imagem foi sanitizada e otimizada para ocupar o menor espaço possível, garantindo privacidade e performance.
 
-* **Link para Download (MEGA):** https://mega.nz/file/1QFWSBBR#IPH4JJO9DnJqvz8t8AEvKJsNSGMVcJLLb2XdsiRSYts
+* **Link para Download (MEGA):** https://mega.nz/file/1EVkTKqI#sX_tYtkyIPlDxvaxnT-a2tKNn1eD8wErQ8fh5np7v-c
 * **Tamanho do arquivo:** 11 GB (Compactado)
 * **Formato:** OVF/VDI (Compatível com VirtualBox)
 
