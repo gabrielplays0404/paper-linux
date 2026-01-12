@@ -114,3 +114,8 @@ echo "[3] Formatando e Montando (Requer Sudo)..."
 # Aqui você usaria o 'losetup' para montar a imagem como um disco real
 # e instalaria o sistema base via debootstrap para ARM64.
 ```
+
+---
+
+## 🤝 Contribuições
+Sinta-se à vontade para abrir Issues ou enviar Pull Requests. O Paper Linux é um projeto comunitário!
