@@ -10,8 +10,8 @@ O **Paper Linux** é um sistema operativo minimalista projetado para ser educati
 ---
 
 ## 📜 Histórico de Lançamentos
-* **v0.1.0 (Lançamento Original):** Estreia oficial do Paper Linux com foco total em arquiteturas de PC (**x86_64** e **i386**), utilizando o script de construção automatizado `paper-build.sh`.
-* **v0.2.0 (Versão Atual):** Expansão para a arquitetura **ARM64**, migração para tabela de partição **GPT** e atualização para o Kernel **6.12.63**.
+* **v1.0.0 (Lançamento Original):** Estreia oficial do Paper Linux com foco total em arquiteturas de PC (**x86_64** e **i386**), utilizando o script de construção automatizado `paper-build.sh`.
+* **v1.1.0 (Versão Atual):** Expansão para a arquitetura **ARM64**, migração para tabela de partição **GPT** e atualização para o Kernel **6.12.63**.
 
 ---
 
