@@ -59,7 +59,7 @@ chmod +x testar_paper.sh
 A imagem foi sanitizada e otimizada para ocupar o menor espaço possível, garantindo privacidade e performance.
 
 * **Link para Download (MEGA):** https://mega.nz/file/5cVT2SyA#3OwfSUHbWYuZA1TEbnapEUE51NjiuuO08GqDGqui814
-* **Tamanho do arquivo:** 11 GB (Compactado)
+* **Tamanho do arquivo:** 14 GB (Compactado), 34 GB (extraído)
 * **Formato:** OVF/VDI (Compatível com VirtualBox)
 
 ### 👤 Credenciais de Acesso
@@ -69,7 +69,7 @@ A imagem foi sanitizada e otimizada para ocupar o menor espaço possível, garan
 ---
 
 ## 🛠️ Como Importar no VirtualBox
-1. Faça o download e extraia o arquivo `.zip`.
+1. Faça o download e extraia o arquivo `.tar.gz`.
 2. No VirtualBox, vá em **Máquina > Acrescentar**.
 3. Selecione o arquivo `.vbox` dentro da pasta extraída.
 4. Ajuste a memória RAM (mínimo 4GB recomendado) e inicie o sistema.
