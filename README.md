@@ -123,4 +123,4 @@ Sinta-se à vontade para abrir Issues ou enviar Pull Requests. O Paper Linux é 
 ---
 
 ## AVISO IMPORTANTE UEFI
-**Desative o Secure Boot antes de usar o Paper Linux. Atualmente, Não dá para usar o Paper Linux em Dual Boot Com o Windows 11**
+**Desative o Secure Boot antes de instalar o Paper Linux. Atualmente, Não dá para usar o Paper Linux em Dual Boot Com o Windows 11**
