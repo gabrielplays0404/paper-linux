@@ -21,10 +21,14 @@ O **Paper Linux** é um sistema operativo minimalista projetado para ser educati
 - **Particionamento:** Transição de MBR para **GPT** na versão ARM64.
 - **Boot Moderno:** Compatibilidade com sistemas UEFI/EDK2 (ARM64).
 
+> [!IMPORTANT]
+> **Compatibilidade UEFI (v1.1.1):**
+> O Paper Linux agora suporta UEFI, mas **não possui suporte a Secure Boot ainda**. 
+> Se o sistema não iniciar, desative o "Secure Boot" e habilite o "Legacy Support" ou "CSM" (se necessário) nas configurações da sua BIOS.
+
 ---
 
 ## 🖥️ Versões Disponíveis
-
 | Versão | Arquitetura | Foco de Uso | Formato |
 | :--- | :--- | :--- | :--- |
 | **Desktop 64** | `x86_64` | PCs modernos e máquinas virtuais com alta performance. | `.iso` |
@@ -119,8 +123,3 @@ echo "[3] Formatando e Montando (Requer Sudo)..."
 
 ## 🤝 Contribuições
 Sinta-se à vontade para abrir Issues ou enviar Pull Requests. O Paper Linux é um projeto comunitário!
-
----
-
-## AVISO IMPORTANTE UEFI
-**Desative o Secure Boot antes de instalar o Paper Linux. Atualmente, Não dá para usar o Paper Linux em Dual Boot Com o Windows 11**
