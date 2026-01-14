@@ -119,3 +119,8 @@ echo "[3] Formatando e Montando (Requer Sudo)..."
 
 ## 🤝 Contribuições
 Sinta-se à vontade para abrir Issues ou enviar Pull Requests. O Paper Linux é um projeto comunitário!
+
+---
+
+## AVISO IMPORTANTE UEFI
+**Desative o Secure Boot antes de usar o Paper Linux. Atualmente, Não dá para usar o Paper Linux em Dual Boot Com o Windows 11**
