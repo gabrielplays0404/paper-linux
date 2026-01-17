@@ -61,12 +61,11 @@ Certifique-se de ter o **QEMU** instalado.
 
 ---
 
-## 📥 Download da Máquina Virtual (VM) de Construção
+## 📥 Download dos arquivos de construção
 
-* **Link para Download (MEGA):** [Clique Aqui](https://mega.nz/file/sF92ALqQ#KNpkpLCbBqDkoAg5ojXXftHzISUak-CRV0p7UPaQ55g)
-* **Tamanho:** 13 GB (Compactado) / 33 GB (Extraído)
-* **SHA256:** `A711B2F1B7E60CBEE0DCEB1BF17DF51F830D832FD11C2AED31530561B348B383`
-* **Usuário:** `Minha-Máquina-Virtual` | **Senha:** `231645`
+* **Link para Download (MEGA):** [Clique Aqui](https://mega.nz/file/AFtm2YCR#Wv2PqExmsF4AhStQIjydQ9wm9YX743ydMVPbaLqqxME)
+* **Tamanho:** 4,3 GB (Compactado) / 6-15 GB (Extraído)
+* **Requisitos** Linux (Debian/Ubuntu e derivados Recomendado) ou wsl2 (para usar no windows)
 
 ---
 
@@ -132,12 +131,11 @@ Ensure you have **QEMU** installed.
 
 ---
 
-## 📥 Development Virtual Machine (VM) Download
+## 📥 Download the build files
 
-* **Download Link (MEGA):** [Click Here](https://mega.nz/file/sF92ALqQ#KNpkpLCbBqDkoAg5ojXXftHzISUak-CRV0p7UPaQ55g)
-* **File Size:** 13 GB (Compressed) / 33 GB (Extracted)
-* **SHA256:** `A711B2F1B7E60CBEE0DCEB1BF17DF51F830D832FD11C2AED31530561B348B383`
-* **User:** `Minha-Máquina-Virtual` | **Pass:** `231645`
+* **Download Link (MEGA):** [Click Here](https://mega.nz/file/AFtm2YCR#Wv2PqExmsF4AhStQIjydQ9wm9YX743ydMVPbaLqqxME)
+* **Size:** 4.3 GB (Compressed) / 6-15 GB (Extracted)
+* **Requirements:** Linux (Debian/Ubuntu and derivatives recommended) or WSL2 (for use on Windows)
 
 ---
 
