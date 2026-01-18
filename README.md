@@ -22,6 +22,20 @@ O **Paper Linux** é um sistema operativo minimalista projetado para ser educati
 
 ---
 
+## 💻 Requisitos do Sistema / System Requirements
+
+### 🇧🇷 Português
+**Para rodar o Paper Linux:**
+* **x86 (32/64 bits):** Processador 1GHz, 256MB RAM (i386) / 512MB RAM (x86_64).
+* **ARM64:** Dispositivos compatíveis com ARMv8 (ex: Raspberry Pi 3/4/5, Pine64) ou máquinas virtuais QEMU com suporte a EFI.
+* **Recomendado:** 1GB RAM ou mais para uma experiência fluida no IceWM.
+
+**Para compilar/extrair os arquivos de construção:**
+* **Espaço em Disco:** 6 GB (Compactado) / 15-20 GB (Extraído para build).
+* **Sistema Hospedeiro:** Linux (Debian, Ubuntu ou Zorin OS recomendados) ou WSL2.
+
+---
+
 ## 💾 Instalação e Pós-Instalação
 
 ### 1. Criando o Pendrive Bootável
@@ -92,6 +106,20 @@ Sinta-se à vontade para abrir **Issues** ou enviar **Pull Requests**. Toda ajud
 
 ---
 
+## 💻 System Requirements
+
+### 🇺🇸 English
+**To run Paper Linux:**
+* **x86 (32/64 bits):** 1GHz CPU, 256MB RAM (i386) / 512MB RAM (x86_64).
+* **ARM64:** ARMv8 compatible devices (e.g., Raspberry Pi 3/4/5, Pine64) or QEMU virtual machines with EFI support.
+* **Recommended:** 1GB RAM or more for a smooth IceWM experience.
+
+**To build/extract build files:**
+* **Disk Space:** 6 GB (Compressed) / 15-20 GB (Extracted for building).
+* **Host OS:** Linux (Debian, Ubuntu, or Zorin OS recommended) or WSL2.
+
+---
+  
 ## 💾 Installation and Setup
 
 ### 1. Creating a Bootable USB
