@@ -18,7 +18,7 @@ O **Paper Linux** é um sistema operativo minimalista projetado para ser educati
 
 ## 📜 Histórico de Lançamentos
 * **v1.0.0:** Estreia oficial focada em arquiteturas de PC (**x86_64** e **i386**).
-* **v1.1.0 (Atual):** Suporte a **ARM64**, migração para **GPT**, suporte **UEFI** e Kernel **6.12.63**.
+* **v1.1.0 (Atual):** Suporte a **ARM64**, migração para **GPT**, suporte **UEFI**, Kernel **6.12.63** (ARM) e Kernel **6.1.0-39** (i386, amd64).
 
 ---
 
@@ -88,7 +88,7 @@ Sinta-se à vontade para abrir **Issues** ou enviar **Pull Requests**. Toda ajud
 
 ## 📜 Release History
 * **v1.0.0:** Official debut focusing on PC architectures (**x86_64** and **i386**).
-* **v1.1.0 (Current):** **ARM64** support, **GPT** partition table, **UEFI** support, and Kernel **v6.12.63**.
+* **v1.1.0 (Current):** **ARM64** support, **GPT** partition table, **UEFI** support, Kernel **v6.12.63**  (ARM) and Kernel **6.1.0-39 (i386, amd64).
 
 ---
 
