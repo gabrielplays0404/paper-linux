@@ -11,5 +11,3 @@ Como o sistema é baseado em Debian, você pode usar o terminal:
 `sudo apt update && sudo apt install nome-do-pacote`
 Ou instalar arquivos `.deb` baixados da internet.
 
-### 4. Por que o arquivo de download é grande (11GB)?
-Diferente de uma ISO comum, este arquivo é uma Máquina Virtual **pronta para uso**. Ele já contém o sistema instalado, atualizado e com todas as ferramentas da Paper Linux configuradas, economizando seu tempo de instalação.
