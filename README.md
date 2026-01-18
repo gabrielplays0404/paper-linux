@@ -9,7 +9,7 @@
 
 ---
 
-# 📄 Paper Linux (Português)
+# 🇧🇷 Paper Linux (Português)
 > Uma distribuição Linux leve, modular e multi-arquitetura, focada em simplicidade e performance.
 
 O **Paper Linux** é um sistema operativo minimalista projetado para ser educativo e eficiente. Utiliza o gestor de janelas **IceWM** para garantir uma interface gráfica fluida, sendo capaz de reviver hardware antigo ou rodar em dispositivos modernos de última geração.
@@ -17,55 +17,33 @@ O **Paper Linux** é um sistema operativo minimalista projetado para ser educati
 ---
 
 ## 📜 Histórico de Lançamentos
-* **v1.0.0 (Lançamento Original):** Estreia oficial do Paper Linux com foco total em arquiteturas de PC (**x86_64** e **i386**), utilizando o script de construção automatizado `paper-build.sh`.
-* **v1.1.0 (Versão Atual):** Expansão para a arquitetura **ARM64**, migração para tabela de partição **GPT** e atualização para o Kernel **6.12.63**.
+* **v1.0.0:** Estreia oficial focada em arquiteturas de PC (**x86_64** e **i386**).
+* **v1.1.0 (Atual):** Suporte a **ARM64**, migração para **GPT**, suporte **UEFI** e Kernel **6.12.63**.
 
 ---
 
-## 🚀 Novidades da v1.1.0
-* **Suporte ARM64:** Agora o Paper Linux pode ser emulado ou rodar em dispositivos ARM.
-* **Kernel:** Atualizado para **v6.12.63** (maior estabilidade e suporte a hardware).
-* **Particionamento:** Transição de MBR para **GPT** na versão ARM64.
-* **Boot Moderno:** Compatibilidade com sistemas UEFI/EDK2 (ARM64).
+## 💾 Instalação e Pós-Instalação
 
-> [!IMPORTANT]
-> **Compatibilidade UEFI (v1.1.1):**
-> O Paper Linux agora suporta UEFI, mas **não possui suporte a Secure Boot ainda**. 
-> Se o sistema não iniciar, desative o "Secure Boot" e habilite o "Legacy Support" ou "CSM" (se necessário) nas configurações da sua BIOS.
+### 1. Criando o Pendrive Bootável
+* **Windows:** Recomendamos o **Rufus** (use o modo "DD") ou o **Ventoy**.
+* **Linux:** Recomendamos o **Ventoy** ou o comando `dd`:
+  `sudo dd if=paper-linux.iso of=/dev/sdX bs=4M status=progress conv=fsync`
 
----
+### 2. Instalação no Disco (HD/SSD)
+Uma vez iniciado pelo pendrive, você pode instalar o sistema permanentemente usando o comando:
+`sudo paper-install`
 
-## 🖥️ Versões Disponíveis
-| Versão | Arquitetura | Foco de Uso | Formato |
-| :--- | :--- | :--- | :--- |
-| **Desktop 64** | `x86_64` | PCs modernos e VMs com alta performance. | `.iso` |
-| **Legacy 32** | `i386` | Hardware antigo e baixo consumo de RAM. | `.iso` |
-| **Mobile/Dev** | `ARM64` | Emulação via QEMU e dispositivos ARM. | `.img` |
+### 3. Configurações Iniciais (Pós-Instalação)
+* **Wi-Fi:** `nmcli dev wifi list` e `sudo nmcli dev wifi connect "REDE" password "SENHA"`
+* **Hora:** `sudo timedatectl set-ntp true` e `sudo timedatectl set-timezone America/Sao_Paulo`
+* **Teclado:** `setxkbmap br`
 
 ---
 
-## 🛠️ Como Testar (Emulação com QEMU)
-
-### 1. Pré-requisitos
-Certifique-se de ter o **QEMU** instalado.
-* **Windows:** Instale o QEMU para Windows (w64).
-* **Linux:** `sudo apt install qemu-system-x86 qemu-system-arm`
-
-### 2. Execução
-* **No Windows:** Execute o ficheiro `testar_paper_linux.bat`. 
-* **No Linux:**
-    ```bash
-    chmod +x testar_paper.sh
-    ./testar_paper.sh
-    ```
-
----
-
-## 📥 Download dos arquivos de construção
-
+## 📥 Download e Requisitos
 * **Link para Download (MEGA):** [Clique Aqui](https://mega.nz/file/AFtm2YCR#Wv2PqExmsF4AhStQIjydQ9wm9YX743ydMVPbaLqqxME)
-* **Tamanho:** 4,3 GB (Compactado) / 6-15 GB (Extraído)
-* **Requisitos** Linux (Debian/Ubuntu e derivados Recomendado) ou wsl2 (para usar no windows)
+* **Tamanho:** 4,3 GB (Compactado)
+* **Requisitos:** Ambiente Linux (Debian/Ubuntu recomendado) ou WSL2.
 
 ---
 
@@ -78,64 +56,64 @@ Certifique-se de ter o **QEMU** instalado.
 | **Navegador** | Firefox-ESR |
 
 ---
+## 🔨 Script de Compilação ARM64
+```bash
+#!/bin/bash
+# Construtor de Imagem Paper Linux ARM64
+IMAGE_NAME="paper_linux_arm64.img"
+IMAGE_SIZE="4G"
 
-# 📄 Paper Linux (English)
+echo "[1] Criando arquivo de imagem vazio..."
+qemu-img create -f raw $IMAGE_NAME $IMAGE_SIZE
+
+echo "[2] Criando tabela de partições GPT..."
+parted $IMAGE_NAME mklabel gpt
+parted $IMAGE_NAME mkpart primary fat32 1MiB 512MiB
+parted $IMAGE_NAME set 1 esp on
+parted $IMAGE_NAME mkpart primary ext4 512MiB 100%
+```
+---
+
+## 🤝 Contribuições
+Sinta-se à vontade para abrir **Issues** ou enviar **Pull Requests**. Toda ajuda para melhorar o Paper Linux é bem-vinda!
+
+---
+
+<br><br>
+
+# 🇺🇸 Paper Linux (English)
 > A lightweight, modular, and multi-architecture Linux distribution focused on simplicity and performance.
-
-**Paper Linux** is a minimalist operating system designed to be educational and efficient. It uses the **IceWM** window manager to ensure a fluid graphical interface, capable of reviving legacy hardware or running on modern high-end devices.
 
 ---
 
 ## 📜 Release History
-* **v1.0.0 (Original Release):** Official debut focusing on PC architectures (**x86_64** and **i386**), using the `paper-build.sh` automated build script.
-* **v1.1.0 (Current Version):** Expansion to **ARM64** architecture, migration to **GPT** partition table, and update to Kernel **v6.12.63**.
+* **v1.0.0:** Official debut focusing on PC architectures (**x86_64** and **i386**).
+* **v1.1.0 (Current):** **ARM64** support, **GPT** partition table, **UEFI** support, and Kernel **v6.12.63**.
 
 ---
 
-## 🚀 What's New in v1.1.0
-* **ARM64 Support:** Paper Linux can now be emulated or run on ARM devices.
-* **Kernel:** Updated to **v6.12.63** (increased stability and hardware support).
-* **Partitioning:** Transitioned from MBR to **GPT** in the ARM64 version.
-* **Modern Boot:** Compatibility with UEFI/EDK2 systems (ARM64).
+## 💾 Installation and Setup
 
-> [!IMPORTANT]
-> **UEFI Compatibility (v1.1.1):**
-> Paper Linux now supports UEFI, but **does not support Secure Boot yet**. 
-> If the system fails to start, disable "Secure Boot" and enable "Legacy Support" or "CSM" (if necessary) in your BIOS settings.
+### 1. Creating a Bootable USB
+* **Windows:** We recommend **Rufus** (use "DD mode") or **Ventoy**.
+* **Linux:** We recommend **Ventoy** or the `dd` command:
+  `sudo dd if=paper-linux.iso of=/dev/sdX bs=4M status=progress conv=fsync`
 
----
+### 2. Disk Installation (HDD/SSD)
+After booting from the USB, you can install Paper Linux permanently using:
+`sudo paper-install`
 
-## 🖥️ Available Versions
-| Version | Architecture | Primary Use Case | Format |
-| :--- | :--- | :--- | :--- |
-| **Desktop 64** | `x86_64` | Modern PCs and high-performance VMs. | `.iso` |
-| **Legacy 32** | `i386` | Legacy hardware and low RAM usage. | `.iso` |
-| **Mobile/Dev** | `ARM64` | QEMU Emulation and ARM devices. | `.img` |
+### 3. Post-Installation Steps
+* **Wi-Fi:** `nmcli dev wifi list` then `sudo nmcli dev wifi connect "SSID" password "PASSWORD"`
+* **Time Sync:** `sudo timedatectl set-ntp true`
+* **Keyboard Layout:** `setxkbmap us` (or your preferred layout)
 
 ---
 
-## 🛠️ How to Test (QEMU Emulation)
-
-### 1. Prerequisites
-Ensure you have **QEMU** installed.
-* **Windows:** Install QEMU for Windows (w64).
-* **Linux:** `sudo apt install qemu-system-x86 qemu-system-arm`
-
-### 2. Execution
-* **On Windows:** Run the `testar_paper_linux.bat` file. 
-* **On Linux:**
-    ```bash
-    chmod +x testar_paper.sh
-    ./testar_paper.sh
-    ```
-
----
-
-## 📥 Download the build files
-
-* **Download Link (MEGA):** [Click Here](https://mega.nz/file/AFtm2YCR#Wv2PqExmsF4AhStQIjydQ9wm9YX743ydMVPbaLqqxME)
-* **Size:** 4.3 GB (Compressed) / 6-15 GB (Extracted)
-* **Requirements:** Linux (Debian/Ubuntu and derivatives recommended) or WSL2 (for use on Windows)
+## 📥 Download (Build Files)
+* **MEGA Download:** [Click Here](https://mega.nz/file/AFtm2YCR#Wv2PqExmsF4AhStQIjydQ9wm9YX743ydMVPbaLqqxME)
+* **Size:** 4.3 GB (Compressed)
+* **Requirements:** Linux (Debian/Ubuntu) or WSL2.
 
 ---
 
@@ -165,5 +143,11 @@ parted $IMAGE_NAME mkpart primary fat32 1MiB 512MiB
 parted $IMAGE_NAME set 1 esp on
 parted $IMAGE_NAME mkpart primary ext4 512MiB 100%
 ```
-## 🤝 Contribuições / Contributions
-Sinta-se à vontade para abrir Issues ou enviar Pull Requests. / Feel free to open Issues or submit Pull Requests.
+---
+
+## 🤝 Contributions
+Feel free to open **Issues** or submit **Pull Requests**. Your help to improve Paper Linux is appreciated!
+
+---
+
+<p align="center">Desenvolvido por Paper Linux Team - 2026</p>
