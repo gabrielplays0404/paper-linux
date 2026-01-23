@@ -57,7 +57,7 @@ Uma vez iniciado pelo pendrive, você pode instalar o sistema permanentemente us
 ### 📱 Paper Linux Mobile (Android Chroot)
 
 Versão especial otimizada para tablets e smartphones (Testado em Multilaser M7 com Android Go).
-<p align="center"> <img src="[https://github.com/gabrielplays0404/paper-linux/raw/main/mobile_demo.png](https://github.com/gabrielplays0404/paper-linux/raw/main/mobile_demo.png)" width="600" alt="Paper Linux Mobile Demo">
+<p align="center"> <img src="[https://github.com/gabrielplays0404/paper-linux/raw/main/mobile_demo.png]" width="600" alt="Paper Linux Mobile Demo">
 
 
   
@@ -169,7 +169,7 @@ After booting from the USB, you can install Paper Linux permanently using:
 
 Special edition optimized for tablets and smartphones (Tested on Multilaser M7 running Android Go).
 
-<p align="center"> <img src="[https://github.com/gabrielplays0404/paper-linux/raw/main/mobile_demo.png](https://github.com/gabrielplays0404/paper-linux/raw/main/mobile_demo.png)" width="600" alt="Paper Linux Mobile Demo">
+<p align="center"> <img src="[https://github.com/gabrielplays0404/paper-linux/raw/main/mobile_demo.png]" width="600" alt="Paper Linux Mobile Demo">
 
 
   
