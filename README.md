@@ -71,7 +71,7 @@ Versão especial otimizada para tablets e smartphones (Testado em Multilaser M7 
     
 3.  **Localização:** - Coloque a imagem em `/sdcard/`.
     
-    -   Coloque o script em `/data/local/` e dê permissão `chmod +x`.
+    -   Coloque o script em `/data/local/tmp/` e dê permissão `chmod +x`.
         
 4.  **Execução:** Importe a macro no MacroDroid e inicie pelo **Atalho da Tela Inicial**.
     
@@ -183,7 +183,7 @@ Special edition optimized for tablets and smartphones (Tested on Multilaser M7 r
     
 3.  **Placement:** - Move the image to `/sdcard/`.
     
-    -   Move the script to `/data/local/` and run `chmod +x`.
+    -   Move the script to `/data/local/tmp/` and run `chmod +x`.
         
 4.  **Execution:** Import the macro into MacroDroid and launch via the **Home Screen Shortcut**.
     
