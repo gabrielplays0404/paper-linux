@@ -62,6 +62,7 @@ Versão especial otimizada para tablets e smartphones (Testado em Multilaser M7 
   <br>
   <b>Paper Linux v1.0 rodando no Multilaser M7</b>
 </p>
+
 **Instalação Mobile:**
 
 1.  **Dependências:** Root (Magisk), MacroDroid e um cliente VNC.
