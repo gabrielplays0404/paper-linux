@@ -65,7 +65,7 @@ Versão especial otimizada para tablets e smartphones (Testado em Multilaser M7 
 
 **Instalação Mobile:**
 
-1.  **Dependências:** Root (Magisk), MacroDroid e um cliente VNC.
+1.  **Dependências:** Root (Magisk), MacroDroid, Pelo menos 8GB de espaço livre e um cliente VNC.
     
 2.  **Arquivos:** Baixe o `paperlinux.img` e o script `entrar_paper.sh`.
     
@@ -177,7 +177,7 @@ Special edition optimized for tablets and smartphones (Tested on Multilaser M7 r
 
 **Mobile Setup:**
 
-1.  **Dependencies:** Root (Magisk), MacroDroid, and a VNC client.
+1.  **Dependencies:** Root (Magisk), MacroDroid, At least 8GB of free space and a VNC client.
     
 2.  **Files:** Download `paperlinux.img` and the `entrar_paper.sh` script.
     
