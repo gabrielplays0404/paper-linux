@@ -57,12 +57,11 @@ Uma vez iniciado pelo pendrive, você pode instalar o sistema permanentemente us
 ### 📱 Paper Linux Mobile (Android Chroot)
 
 Versão especial otimizada para tablets e smartphones (Testado em Multilaser M7 com Android Go).
-<p align="center"> <img src="[https://github.com/gabrielplays0404/paper-linux/raw/main/mobile_demo.png]" width="600" alt="Paper Linux Mobile Demo">
-
-
-  
-
-<b>Paper Linux v1.0 rodando no Multilaser M7</b> </p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gabrielplays0404/paper-linux/main/mobile_demo.png" width="600" alt="Paper Linux Mobile Demo">
+  <br>
+  <b>Paper Linux v1.0 rodando no Multilaser M7</b>
+</p>
 **Instalação Mobile:**
 
 1.  **Dependências:** Root (Magisk), MacroDroid e um cliente VNC.
@@ -169,12 +168,11 @@ After booting from the USB, you can install Paper Linux permanently using:
 
 Special edition optimized for tablets and smartphones (Tested on Multilaser M7 running Android Go).
 
-<p align="center"> <img src="[https://github.com/gabrielplays0404/paper-linux/raw/main/mobile_demo.png]" width="600" alt="Paper Linux Mobile Demo">
-
-
-  
-
-<b>Paper Linux v1.0 running in Multilaser M7</b> </p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gabrielplays0404/paper-linux/main/mobile_demo.png" width="600" alt="Paper Linux Mobile Demo">
+  <br>
+  <b>Paper Linux v1.0 running in Multilaser M7</b>
+</p>
 
 **Mobile Setup:**
 
