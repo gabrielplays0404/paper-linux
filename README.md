@@ -54,6 +54,33 @@ Uma vez iniciado pelo pendrive, você pode instalar o sistema permanentemente us
 
 ---
 
+### 📱 Paper Linux Mobile (Android Chroot)
+
+Versão especial otimizada para tablets e smartphones (Testado em Multilaser M7 com Android Go).
+<p align="center"> <img src="[https://github.com/gabrielplays0404/paper-linux/raw/main/mobile_demo.png](https://github.com/gabrielplays0404/paper-linux/raw/main/mobile_demo.png)" width="600" alt="Paper Linux Mobile Demo">
+
+
+  
+
+<b>Paper Linux v1.0 rodando no Multilaser M7</b> </p>
+**Instalação Mobile:**
+
+1.  **Dependências:** Root (Magisk), MacroDroid e um cliente VNC.
+    
+2.  **Arquivos:** Baixe o `paperlinux.img` e o script `entrar_paper.sh`.
+    
+3.  **Localização:** - Coloque a imagem em `/sdcard/`.
+    
+    -   Coloque o script em `/data/local/` e dê permissão `chmod +x`.
+        
+4.  **Execução:** Importe a macro no MacroDroid e inicie pelo **Atalho da Tela Inicial**.
+    
+5.  **Acesso VNC:** - **Endereço:** `127.0.0.1:5901`
+    
+    -   **Senha:** `paperlin`
+
+---
+
 ## 📥 Download e Requisitos
 * **Link para Download (MEGA):** [Clique Aqui](https://mega.nz/file/AFtm2YCR#Wv2PqExmsF4AhStQIjydQ9wm9YX743ydMVPbaLqqxME)
 * **Tamanho:** 4,3 GB (Compactado)
@@ -135,6 +162,35 @@ After booting from the USB, you can install Paper Linux permanently using:
 * **Wi-Fi:** `nmcli dev wifi list` then `sudo nmcli dev wifi connect "SSID" password "PASSWORD"`
 * **Time Sync:** `sudo timedatectl set-ntp true`
 * **Keyboard Layout:** `setxkbmap us` (or your preferred layout)
+
+---
+
+### 📱 Paper Linux Mobile (Android Chroot)
+
+Special edition optimized for tablets and smartphones (Tested on Multilaser M7 running Android Go).
+
+<p align="center"> <img src="[https://github.com/gabrielplays0404/paper-linux/raw/main/mobile_demo.png](https://github.com/gabrielplays0404/paper-linux/raw/main/mobile_demo.png)" width="600" alt="Paper Linux Mobile Demo">
+
+
+  
+
+<b>Paper Linux v1.0 running in Multilaser M7</b> </p>
+
+**Mobile Setup:**
+
+1.  **Dependencies:** Root (Magisk), MacroDroid, and a VNC client.
+    
+2.  **Files:** Download `paperlinux.img` and the `entrar_paper.sh` script.
+    
+3.  **Placement:** - Move the image to `/sdcard/`.
+    
+    -   Move the script to `/data/local/` and run `chmod +x`.
+        
+4.  **Execution:** Import the macro into MacroDroid and launch via the **Home Screen Shortcut**.
+    
+5.  **VNC Access:** - **Address:** `127.0.0.1:5901`
+    
+    -   **Password:** `paperlin`
 
 ---
 
