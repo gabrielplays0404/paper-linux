@@ -54,30 +54,26 @@ Uma vez iniciado pelo pendrive, você pode instalar o sistema permanentemente us
 
 ---
 
-### 📱 Paper Linux Mobile (Android Chroot)
+## 📱 Paper Linux Mobile
 
-Versão especial otimizada para tablets e smartphones (Testado em Multilaser M7 com Android Go).
-<p align="center">
-  <img src="https://raw.githubusercontent.com/gabrielplays0404/paper-linux/main/mobile_demo.png" width="600" alt="Paper Linux Mobile Demo">
-  <br>
-  <b>Paper Linux v1.0 rodando no Multilaser M7</b>
-</p>
+O **Paper Linux** foi adaptado para rodar nativamente (via chroot) em dispositivos móveis, com suporte especial para o **Samsung Galaxy J2 Prime**. Diferente de emuladores pesados, ele utiliza o próprio Kernel do Android para rodar binários Linux com performance máxima.
 
-**Instalação Mobile:**
+### 🛠️ Requisitos Mínimos
+| Componente | Requisito |
+| :--- | :--- |
+| **Aparelho** | Qualquer Aparelho Com Android 5.0+ |
+| **Acesso** | Root (Magisk/SuperSU) |
+| **Sistema** | Android 6.0+ |
+| **Espaço** | 1.5GB Livres |
+| **Ferramentas** | BusyBox & MacroDroid |
 
-1.  **Dependências:** Root (Magisk), MacroDroid, Pelo menos 8GB de espaço livre e um cliente VNC.
-    
-2.  **Arquivos:** Baixe o `paperlinux.img` e o script `entrar_paper.sh`.
-    
-3.  **Localização:** - Coloque a imagem em `/sdcard/`.
-    
-    -   Coloque o script em `/data/local/tmp/` e dê permissão `chmod +x`.
-        
-4.  **Execução:** Importe a macro no MacroDroid e inicie pelo **Atalho da Tela Inicial**.
-    
-5.  **Acesso VNC:** - **Endereço:** `127.0.0.1:5901`
-    
-    -   **Senha:** `paperlin`
+### 🚀 Instalação Rápida
+1. Baixe o `paperlinux_rootfs.tar.gz` e extraia em `/data/paperlinux/rootfs/`.
+2. Coloque o `boot_paper.sh` em `/data/local/` e dê permissão de execução (`chmod +x`).
+3. Importe a macro no **MacroDroid** para o boot com um toque.
+4. Conecte-se via **VNC Viewer** em `localhost:1` (Senha: `paperlin`).
+
+> **Nota de Compatibilidade:** Esta versão utiliza o método **Rootfs (Pasta)**, eliminando conflitos de drivers e garantindo que o sistema funcione em aparelhos onde imagens `.img` falham.
 
 ---
 
@@ -165,31 +161,35 @@ After booting from the USB, you can install Paper Linux permanently using:
 
 ---
 
-### 📱 Paper Linux Mobile (Android Chroot)
+## 📱 Paper Linux Mobile
 
-Special edition optimized for tablets and smartphones (Tested on Multilaser M7 running Android Go).
+Paper Linux has been adapted to run natively (via chroot) on mobile devices, with special support for the Samsung Galaxy Grand Prime Plus. Unlike heavy emulators, it uses the Android Kernel itself to run Linux binaries with maximum performance.
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/gabrielplays0404/paper-linux/main/mobile_demo.png" width="600" alt="Paper Linux Mobile Demo">
-  <br>
-  <b>Paper Linux v1.0 running in Multilaser M7</b>
-</p>
+## 🛠️ Minimum Requirements
+| Component | Requirement |
 
-**Mobile Setup:**
+| :--- | :--- |
 
-1.  **Dependencies:** Root (Magisk), MacroDroid, At least 8GB of free space and a VNC client.
-    
-2.  **Files:** Download `paperlinux.img` and the `entrar_paper.sh` script.
-    
-3.  **Placement:** - Move the image to `/sdcard/`.
-    
-    -   Move the script to `/data/local/tmp/` and run `chmod +x`.
-        
-4.  **Execution:** Import the macro into MacroDroid and launch via the **Home Screen Shortcut**.
-    
-5.  **VNC Access:** - **Address:** `127.0.0.1:5901`
-    
-    -   **Password:** `paperlin`
+| Device | Any Device with Android 5.0+ |
+
+| Access | Root (Magisk/SuperSU) |
+
+| System | Android 6.0+ |
+
+| Space | 1.5GB Free |
+
+| Tools | BusyBox & MacroDroid |
+
+### 🚀 Quick Installation
+1. Download `paperlinux_rootfs.tar.gz` and extract it to `/data/paperlinux/rootfs/`.
+
+2. Place `boot_paper.sh` in `/data/local/` and give it execution permission (`chmod +x`).
+
+3. Import the macro into **MacroDroid** for one-touch boot.
+
+4. Connect via **VNC Viewer** to `localhost:1` (Password: `paperlin`).
+
+> **Compatibility Note:** This version uses the **Rootfs (Folder)** method, eliminating driver conflicts and ensuring the system works on devices where `.img` images fail.
 
 ---
 
